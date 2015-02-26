@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- It starts that directory as a blank slate for commiting stuff by making a .git thing and giving you the opportunity to commit stuff to it from them on. Here is where the commits to all your tracked files will go down and be stored.  
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers? 
+
+- The staging area are the files in the working directory at the state they were added to the commit but could be different from what's in the working dirrectory. If there's a commit it will go to the local reopository.  

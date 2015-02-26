@@ -1,0 +1,4 @@
+    'LocalStorageModule'
+  ])
+    .config(['localStorageServiceProvider', function(localStorageServiceProvider){
+      localStorageServiceProvder.setPrefix('ls');
