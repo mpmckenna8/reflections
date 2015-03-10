@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+- Using a remote repository is a great way to share work you've done. Plus you'll quite easilly be able to pick up
+working on it from any computer with an internet connection!  And you can collaborate with anyone with an internet
+connection as well. Plus if beer gets spilled all over your computer at least all the stuff you've pushed will 
+still be around.
