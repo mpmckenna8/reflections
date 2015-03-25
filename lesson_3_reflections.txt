@@ -17,4 +17,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
 - Then you can always go back to the version on the remote if things go bad.  Plus if you do
 things the slow way I think that you have the chance to get your current working version in a good state
-to merge and then deal with any conflicts.
+to merge and then deal with any conflicts. 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- Collaborating without git everyone would have to strictly follow the latest working shared codebase.  Then when they want to make changes to it
+let everyone know and show everything they did so other people would be able to work whatever they were doing into it.  They'd probably have to start afreash and see 
+what's different using diff or other tools.  Then repeat for every change someone wants to make.  Github makes it way easier to selectively merge changes but could generate a ton of branches and confusion when merging.  The only easier thing about non git collaboration is that it's very straightforward, thus hard to screw up.
+
+

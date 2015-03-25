@@ -2,5 +2,19 @@ When would you want to use a remote repository rather than keeping all your work
 
 - Using a remote repository is a great way to share work you've done. Plus you'll quite easilly be able to pick up
 working on it from any computer with an internet connection!  And you can collaborate with anyone with an internet
-connection as well. Plus if beer gets spilled all over your computer at least all the stuff you've pushed will 
+connection as well. Plus if beer gets spilled all over your computer at least all the stuff you've pushed will
 still be around.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+- A fork is made using github.com to copy someone's repository into your accounts repositories online. So you get all the branches too.
+With a clone you just copy a repo from github to your current working directory. Can do all the git stuff but you won't have a remote so you can't push unless you set one.
+You can create a branch on any repository you have control to make updates from either in you local directory or on github. This will create a copy of whatever branch you are on and
+you have the chance to make commits which won't be included in other branches unless they're merged in.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+- Then you can always go back to the version on the remote if things go bad.  Plus if you do
+things the slow way I think that you have the chance to get your current working version in a good state
+to merge and then deal with any conflicts.
